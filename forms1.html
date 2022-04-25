@@ -7,12 +7,16 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Wraping our first form in a section-->
     <section>
+        <!-- Header for our form-->
     <h1>First Form</h1>
-    
+    <!-- we can intiate a form with the form tag-->
     <form action="/Ali">
         <p>
+            <!-- we create a label for our input box-->
             <label for="username">Enter A Name:</label>
+            <!-- we use the input tag for creating an input box to submit data. We don't need to close our input tag with a /input-->
             <input type="text", id="username" name="username" placeholder="Ali">
         </p>
 
@@ -63,6 +67,24 @@
 
             </p>
 
+            <p>
+                <label for="colors">What is your favorite color</label>
+                <select name="colors" id="colors">
+                    <option value="Red">Red</option>
+
+                    <option value="Blue">Blue</option>
+
+                    <option value="Green">Green</option>
+
+                </select>
+
+            </p>
+
+            <p>
+                <label for="sbar">Ali's ScrollBar</label>
+                <input type="range" id="sbar" min="0" max="10" name="scrollbar">
+            </p>
+            <button>Submit</button>
         </form>
     </section>
 </body>
