@@ -1,0 +1,18 @@
+/* color for our h1 tags, this applies to all h1 tags */
+h1{
+    color: green;
+}
+/* color for our h2 tags, this applies to all h12 tags */
+h2{
+    color: purple;
+}
+/* color for our p tags, this applies to all p tags */
+p{
+    color: pink;
+    background-color: green;
+}
+/* color for our button tags, this applies to all button tags */
+button{
+    color: white;
+    background-color: blue;
+}
