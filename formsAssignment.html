@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please fill out the form below</h1>
+    <!-- Starting a new section-->
+    <section>
+        <!-- Creating a form-->
+        <form action="form">
+            <!-- Here we are going to create input for our first name with a required validation -->
+            <p>
+                <label for="fname">First Name:</label>
+                <input type="text" name="firstname" id="fname" placeholder="First Name" required>
+            </p>
+            <!-- We repeat the same prcoess for the last name but they must have different id's-->
+            <p>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lastname" id="lname" placeholder="Last Name" required>
+            </p>
+            <!-- Lets give the user options for food-->
+            <p>
+                <label for="choice">Which food would you like to eat</label>
+                <!-- We use multiple option tags for what they can chose from. The options are wrapped in a select tag-->
+                <select name="choice" id="choice">
+                    <option value="chicken">Chicken</option>
+                    <option value="Bread">Bread</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Fruitmix">Fruitmix</option>
+                </select>
+            </p>
+            <!-- creating a text area for user input-->
+            <p>
+                <label for="textarea">Do you have any allergies?</label>
+                <p><textarea name="textbox" id="textarea" cols="60" rows="5" placeholder="Please let us know of any allergies" maxlength="100"></textarea></p>
+            </p>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
