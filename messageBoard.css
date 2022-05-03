@@ -1,0 +1,71 @@
+/*  */
+/* *{
+
+    color:pink;
+    background-color:green;
+
+} */
+
+/* Changing the entire background color of our webpage.  */
+body {
+
+    background-color: rgb(206, 169, 138);
+}
+/* Increasing the size of all our buttons so they can stand out */
+button {
+
+    font-size: 30px; 
+}
+/* We can select mulitple tags. Here we select both the h1 and h2 tags of our webpage and setting the their colors to black */
+h1,h2 {
+
+    color:rgb(0, 0, 0);
+}
+/* We can use the # sign to select content from our html to style. Here we are selecting the id we used for our button in the html document  */
+#signup {
+
+    background-color:pink;
+    color:blue; 
+
+}
+/* We use the period . to select class's. Here we are selecting the span tag that we gave the class of tag in our html document */
+.tag{
+
+    color:purple;
+}
+/* We can get more specific with our css selections. In this line of code we follow our class with the a tag to only grab a tags with a class of post */
+.post a{
+
+    color:purple;
+}
+
+/* Only selecting the a tags in footer tag. Changing the value of those a tags to orange color */
+footer > a {
+    color:orange;
+
+}
+/* We can specify by text as well. Here are selecting all the a tags with a href that matchs the text google */
+a[href*="google"]{
+    color: rgb(44, 165, 54);
+}
+
+/* Psuedo classes are a bit more special. With this line of code we are styling our buttons only when we hover over them  */
+button:hover{
+    background-color: red;
+    color: aquamarine;
+}
+
+/* When we click the button we are making it so the background color is green */
+.post button:active{
+    background-color: green;
+}
+
+/*Adjusting the first letter of every h2 tag to have a much greater font-size */
+h2::first-letter {
+    font-size: 70px;
+}
+
+/* Making every first pharagraph line color green. */
+p::first-line{
+    color: green
+}

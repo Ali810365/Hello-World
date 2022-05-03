@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <!--We are going to link the css file and in order to do so we use the link tag in the head -->
+    <link rel="stylesheet" href="messageBoard.css">
+   
+
+</head>
+<body>
+    <!-- Creating our navigation menu. We have a simple search input and a passowrd login input -->
+    <nav>
+        <label for="search">Search</label>
+        <input type="text" placeholder="Search" id="search">
+
+        <input type="password" placeholder="Password">
+        <button>Log In</button>
+        <button id="signup">Sign Up</button>
+    </nav>
+
+    <!--Our main is going to deliver most of our webpage content. Lets create a message board for sharing quotes!  -->
+
+    <main>
+        <h1>This is a Message Board For Sharing Your Favorite Quotes</h1>
+
+        <!-- Creating the layout of our message board. Span tag with an a tag for the user info. We will also creat a button for others to vote and recognize the post -->
+            <section class="post">
+                <span>Posted by <a href="12345">/Twain520</a></span>
+                <h2>Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do.  <span class="tag">-Mark Twain</span></h2>
+                <button>+Vote</button>
+                <hr>
+            </section>
+
+            <section class="post">
+                <span>Posted by <a href="19854">/CS2048290</a></span>
+                <h2>Life is ten percent what happens to you and ninety percent how you respond to it. <span class="tag">-Charles Swindoll</span></h2>
+                <button>+Vote</button>
+                <hr>     
+            </section>
+
+            <section class="post">
+                <span>Posted by <a href="12345">/RTony</a></span>
+                <h2>The only impossible journey is the one you never begin. <span class="tag">-Tony Robbins</span></h2>
+                <button>+Vote</button>
+                <hr>
+            </section>
+
+        
+        
+    </main>
+    <!-- creating a lorem ipsum so we can style it with pseude slectors and class-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit recusandae, cum neque molestiae adipisci corrupti maxime blanditiis beatae sapiente quae 
+        omnis architecto harum iure illo perspiciatis facilis accusamus voluptatum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, 
+        dolor atque. Numquam ut dolore nemo nobis, recusandae perferendis delectus aspernatur vitae ducimus provident possimus accusantium, blanditiis 
+        aperiam obcaecati facilis odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero ipsum repellat laudantium! Quas quis nobis, 
+        ad itaque deserunt recusandae id delectus, adipisci ab quibusdam cum, illo dolor unde natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ducimus unde consequuntur totam, quis libero ipsum ea. Neque eum magnam reprehenderit doloribus facilis asperiores atque nisi in. Perspiciatis aliquam cum quos.
+    </p>
+
+    <!-- footer navigation for the final secion of our webpage-->
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com">Google</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="www.nintendo.com">Link to Nintendo</a>    
+    </footer>
+
+</body>
+
+</html>
