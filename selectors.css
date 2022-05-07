@@ -1,0 +1,30 @@
+/*styling our item 1 and 5 with their respective class's with a color of crimson */
+.one, .five{
+    color: crimson;
+}
+/* we can style multiple class's together by seperating them with a comma */
+.two, .eight{
+    color: rgb(0, 145, 0);
+}
+
+.three{
+    color: #f2c649 ;
+}
+
+.four, .six, .nine{
+    color: red;
+}
+
+.seven{
+    color: rgb(219, 143, 0);
+}
+/*ID's are different, we have to use the # sign to point to id's */
+#greenButton{
+    background-color: green;
+    color: white;
+}
+/*for our last button, lets make the background red and the color white */
+#redButton{
+    background-color: red;
+    color: white;
+}
