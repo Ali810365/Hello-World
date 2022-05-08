@@ -1,16 +1,17 @@
+/* grabbing all the a tags under our header section and increasing the font size to 30px and of course they look much better green*/
 header > a{
     font-size: 30px;
     color: green;
 }
-
+/* any a tag under the id of subjects will have the following color*/
 #subjects > a{
     color: rgb(201, 171, 108);
 }
-
+/* any a tag under the id of athletes will have the following color*/
 #athletes > a{
     color: orange;
 }
-
+/* any a tag under the id of schools will have the following color*/
 #schools > a{
     color: purple;
 }
