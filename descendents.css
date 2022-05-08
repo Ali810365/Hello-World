@@ -1,0 +1,16 @@
+header > a{
+    font-size: 30px;
+    color: green;
+}
+
+#subjects > a{
+    color: rgb(201, 171, 108);
+}
+
+#athletes > a {
+    color: orange;
+}
+
+#schools > a {
+    color: purple;
+}
