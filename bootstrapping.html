@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrapping</title>
+    <!-- linking our bootstrap as our css source-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
     <section>
-
+        <!-- Our header, we are going to center the text and make the background dark. With a dark background that means our text needs to be white as well so we apply text-white-->
         <h1 class="display-4 text-center text-white bg-dark">The Matrix</h1>
-
-        <div class="aler alert-danger text-center">
-            <p>Are you going to choose the blue pill or the red pill</p>
-
+        <!-- Create our first div for our question. We center our text and We use alert to give it a danger vibe. -->
+        <div class="alert alert-danger text-center">
+            Are you going to choose the blue pill or the red pill
         </div>
 
-
+        <!--Let's create another div for our buttons. -->
         <div class="text-center">
-            
+            <!--Here we create two buttons. We give them their respective colors with primary and danger-->
             <button type="button" class="btn btn-primary">Take Blue Pill</button>
             <button type="button" class="btn btn-danger">Take Red Pill</button>
 
